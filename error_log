@@ -1,0 +1,189 @@
+[07-Oct-2024 09:25:06 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Console\Kernel" does not exist in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Console\Kernel] does not exist. in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[07-Oct-2024 09:27:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Console\Kernel" does not exist in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Console\Kernel] does not exist. in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[07-Oct-2024 09:28:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Console\Kernel" does not exist in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Console\Kernel] does not exist. in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[07-Oct-2024 09:29:20 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Console\Kernel" does not exist in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Console\Kernel] does not exist. in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[07-Oct-2024 09:30:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Console\Kernel" does not exist in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Console\Kernel] does not exist. in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[07-Oct-2024 09:30:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Console\Kernel" does not exist in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Console\Kernel] does not exist. in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[07-Oct-2024 09:31:34 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Console\Kernel" does not exist in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Console\Kernel] does not exist. in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#1 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#2 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#3 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#5 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(961): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(946): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home3/cvinfamg/hrmanagement.cvinfotechserver.com/CV/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
